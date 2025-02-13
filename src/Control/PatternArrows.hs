@@ -23,6 +23,7 @@ import qualified Control.Category as C
 import Control.Category ((>>>))
 import qualified Control.Arrow as A
 import Control.Arrow ((***), (<+>))
+import Data.Function (fix)
 
 -- |
 -- A first-order pattern match
